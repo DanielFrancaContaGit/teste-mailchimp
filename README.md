@@ -25,5 +25,22 @@
       'LNAME': req.body.lastname
    }
  ```
+ Para rodar o projeto use os seguintes comentos:
+ 
+```
+npm i 
+```
+
+ Depois:
+
+```
+npm i -g nodemon 
+```
+
+ Para rodar o projeto:
+
+```
+nodemon index.js
+```
  
  Para encontrar o id da sua alista, na sua conta do mailchimp é preciso ir em  `Audience` e depois em `Mamage Audience` e em seguida em `Settings` e no final da pagina você ira encontrat o id .
